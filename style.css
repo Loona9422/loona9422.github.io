@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: rgb(30, 30, 46);
+  color: rgb(205, 214, 244);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(205, 214, 244);
+}
+
+a:hover {
+  color: #a6adc8;
+}
+
+.column {
+  display: flex;
+  margin: 2em 2em 2em 2em;
+
+
+}
+
+.spacing {
+  height: 1em;
+}
+
+.spacing.big {
+  height: 3em;
+}
+
+.left {
+  display: flexbox;
+  width: 40%;
+  max-width: 30em;
+  justify-self: center;
+  align-items: center;
+}
+
+.right {
+  width: 60%;
+}
+
+.pfp {
+  margin: 1em;
+}
+
+.credit {
+  text-align: end;
+  font-size: small;
+}
+
+
+
+/* Tab */
+.tab {
+  border-top: 1px solid #cdd6f4;
+  border-left: 1px solid #cdd6f4;
+  padding: .2em .5em .2em .5em;
+  width: fit-content;
+}
+
+.tab.selected {
+  background-color: #181825;
+  border-top: 1px solid #f5c2e7;
+  border-left: 1px solid #f5c2e7;
+}
+
+.editor {
+  border-left: 1px solid #cdd6f4;
+  padding-left: .5em;
+}
+
+.editor.selected {
+  background-color: #181825;
+  border-left: 1px solid #f5c2e7;
+  padding-left: .5em;
+}
+
+.last {
+  padding-bottom: .5em;
+}
+
+
+
+/* Info.css */
+.css {
+  /* background-color: beige; */
+  margin: 1em;
+}
+
+
+
+/* About_Me.html */
+.html {
+  /* background-color: rgb(245, 220, 243); */
+  margin: 1em;
+  display: in;
+}
+
+.indent {
+  padding-left: 2em;
+}
+
+.identity {
+  width: 2em;
+  vertical-align:middle;
+}
+
+
+
+/* Things_I_Have_Made.js */
+.JS {
+  /* background-color: rgb(220, 243, 245); */
+  margin: 1em;
+}
+
+
+
+/* List of syntax colors */
+.blue {
+  display: inline;
+  color: #89b4fa;
+}
+
+.green {
+  display: inline;
+  color: #a6e3a1;
+}
+
+.yellow {
+  display: inline;
+  color: #f9e2af;
+}
+
+.red {
+  display: inline;
+  color: #f38ba8;
+}
+
+.purple {
+  display: inline;
+  color: #cba6f7;
+}
+
+.teal {
+  display: inline;
+  color: #94e2d5;
+}
+
+.gray {
+  display: inline;
+  color: #a6adc8;
+}
